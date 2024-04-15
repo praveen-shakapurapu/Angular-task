@@ -12,7 +12,7 @@ import { MatDialogRef } from '@angular/material/dialog';
 })
 export class RegistrationComponent {
 
-  constructor(private router: Router,private serv: ServicesService, private registeref:MatDialogRef<any>){}
+  constructor(private router: Router,private serv: ServicesService, private registeref:MatDialogRef<RegistrationComponent>){}
 
 
   validForm = new FormGroup({
